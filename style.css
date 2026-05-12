@@ -4,26 +4,20 @@
      margin:0;
      padding:0;
      box-sizing:border-box;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    }
 
 
    body{
-     background:#fff8f0;
+     background:#dad7d2;
    }
    h1{
     text-align: center;
     margin-top: 20px;
-    color: red;
+    color: blue;
     font-size:35px;
    }
-
-
-  
-   /* Navbar */
-
-
-   .navbar{
+    .navbar{
      width:100%;
      display:flex;
      justify-content:space-between;
@@ -33,9 +27,7 @@
      position:sticky;
      top:0;
    }
-
-
-   .logo{
+    .logo{
      display:flex;
      align-items:center;
      gap:12px;
@@ -112,16 +104,12 @@
    height:220px;
    object-fit:cover;
 }
-
-
-.dish-card h3{
+  .dish-card h3{
    margin-top:20px;
    color:#8b0000;
    font-size:28px;
 }
-
-
-.dish-card p{
+  .dish-card p{
    padding:15px 20px;
    color:#555;
    line-height:1.6;
@@ -142,13 +130,6 @@
 .dish-card button:hover{
    background:#8b0000;
 }
-
-
-
-
-   /* About */
-
-
    .about{
      background:#ffe4c4;
      margin:30px;
